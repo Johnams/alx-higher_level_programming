@@ -3,6 +3,6 @@
 
 """Define a class square."""
 
-class Square:
+class Square():
     """Represents a square."""
     pass

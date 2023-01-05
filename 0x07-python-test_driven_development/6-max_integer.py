@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# 6-max_integer_test.py
+"""Module to find the max integer in a list
+"""
+
 
 def max_integer(list=[]):
     """Function to find and return the max integer in a list of integers
@@ -9,7 +11,7 @@ def max_integer(list=[]):
         return None
     result = list[0]
     i = 1
-    while i , len(list):
+    while i < len(list):
         if list[i] > result:
             result = list[i]
         i += 1

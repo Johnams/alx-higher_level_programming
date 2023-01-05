@@ -4,8 +4,9 @@
 
 
 class LockedClass:
-    """Prevents the user from dynamically creating new insance
-    attribute except if the new attribute is called first_name."""
-
+    """
+    Prevent the user from instantiating new LockedClass attributes
+    for anything but attributes called 'first_name'.
+    """
 
     __slots__ = ["first_name"]

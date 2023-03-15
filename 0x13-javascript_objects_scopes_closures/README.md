@@ -1,6 +1,6 @@
 0x13. JavaScript - Objects, Scopes and Closures
 
-
+Resources
     JavaScript object basics
     Object-oriented JavaScript (read all examples!)
     Class - ES6
